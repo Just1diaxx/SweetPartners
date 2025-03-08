@@ -1,0 +1,30 @@
+{
+  "name": "modulardiscordbot",
+  "version": "2.0",
+  "description": "A powerful and modular Discord Bot with custom Module support!",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Miky88",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "common-tags": "^1.8.2",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "lokijs": "^1.5.12",
+    "moment": "^2.30.1",
+    "moment-duration-format": "^2.3.2",
+    "pagination.djs": "^4.0.16",
+    "yaml": "^2.3.1"
+  }
+}
